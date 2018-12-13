@@ -1,6 +1,8 @@
 * {
 	box-sizing: border-box;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Major Mono Display', monospace;
+	border-radius: 5px;
+
 }
 
 a {
@@ -16,31 +18,63 @@ a {
 	height: 4%;
 	width: 100%;
 	background-color: green;
-	opacity: 0.6;
+	opacity: 0.7;
+	border-radius: 5px;
+}
+
+.logo {
+	font-size: 1.8em;
+	padding: 20px;
+	margin-left: 20px;
+}
+
+.logo a {
+	color: #003300;	
+}
+
+.logo1 {
+	font-weight: bolder;
+	color: black;
+
 }
 
 .side-menu {
 	width: 20%;
-	background-color: green;
+	background-color: #33691e;
 	height: 70%;
 	float: left;
 }
 
-ul#nav li {
+ul {
 	list-style: none;
+	float: left;
+	width: 100%;
 }
 
-ul#nav li a {
+ul li {
+	list-style-position: inside;
+	list-style-type: none;
+	margin-left: -40px;
+	padding-top: -2px;
+}
+
+ul li a {
 	font-size: 1.5em;
 	color: #60ad5e;
-	display: block;
 	border-bottom: 2px solid #005005;
-	padding: 10px;
+	padding: 12px;
+	display:  block;
 }
+
+ul li a:hover {
+	background-color: #003d00;
+	font-size: 2em;
+	padding-left: 10px;
+}
+
 
 .inner-content {
 	float: right;
-	margin-left: 0;
 	width: 80%;
 	height: 70%;
 	background-color: lightgreen;
